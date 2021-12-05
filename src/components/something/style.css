@@ -1,0 +1,18 @@
+h3{
+    color: rgb(255, 255, 255);
+}
+.desc{
+    width: 100%;
+    color: grey;
+}
+.test {
+    object-fit: cover;
+    width: 100%;
+    height: 267px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
