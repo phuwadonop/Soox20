@@ -1,0 +1,34 @@
+
+.des {
+  position: absolute;
+  width: 570px;
+  height: 37px;
+  left: 39.55625%;
+  top: 24.7222%;
+
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ebebeb;
+}
+
+.backBt {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 44.792%;
+  top: 31.48%;
+
+  background: #4d194d;
+  border-radius: 40px;
+  font-style: normal;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}

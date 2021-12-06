@@ -1,0 +1,78 @@
+
+.regis-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter";
+}
+
+label {
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  margin-left: 43px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ebebeb;
+}
+
+input {
+  width: 600px;
+  height: 60px;
+  background: #c4c4c4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: none;
+}
+
+.email-box {
+  position: absolute;
+  width: 600px;
+  height: 97px;
+  left: 34.375%;
+  top: 23.15%;
+}
+.usn-box {
+  position: absolute;
+  width: 600px;
+  height: 97px;
+  left: 34.375%;
+  top: 33.35%;
+}
+.password-box {
+  position: absolute;
+  width: 600px;
+  height: 97px;
+  left: 34.375%;
+  top: 43.55%;
+}
+.cpw-box {
+  position: absolute;
+  width: 600px;
+  height: 97px;
+  left: 34.375%;
+  top: 53.75%;
+}
+
+.signupbt {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 54.975%;
+  top: 70.68%;
+}
+.nbackbt {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 34.575%;
+  top: 70.68%;
+}
