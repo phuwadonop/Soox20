@@ -9,6 +9,8 @@ import Regis from "./screen/auth/register/regis";
 import Respo from "./screen/auth/changepw/changepw";
 import Search from "./screen/components/library/search";
 import Radio from "./screen/components/library/radio";
+import Album from "./screen/components/library/comps/album";
+import Player from "./screen/components/library/footer/player";
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
           <Route path="/resetpassword" element={<Respo />} />
           <Route path="/search" element={<Search />} />
           <Route path="/radio" element={<Radio />} />
+          <Route path="/album" element={<Album />} />
+          <Route path="/player" element={<Player />} />
+
         </Routes>
       </Router>
     </div>

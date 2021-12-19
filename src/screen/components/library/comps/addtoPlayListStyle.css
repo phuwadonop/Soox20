@@ -1,0 +1,147 @@
+.atp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.atp-bg {
+  background-color: #1924345e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.atp-content {
+  width: 56.25rem;
+  height: 46.875rem;
+  position: absolute;
+  left: 40.25rem;
+  top: 9.875rem;
+  background: #312244;
+  border-radius: 30px;
+  padding: 2rem;
+}
+
+.atp-content h1 {
+  text-align: center;
+  color: white;
+}
+
+.cancle,
+.done h3 {
+  color: red;
+}
+
+.playlist-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 56.25rem;
+  height: 35rem;
+  overflow-y: scroll;
+}
+
+.playlist-container::-webkit-scrollbar {
+  display: none;
+}
+.playlist-item {
+  height: 10.375rem;
+  width: 52.25rem;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.3);
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.playlist-item:hover {
+  filter: brightness(120%);
+  background-color: #44305e42;
+}
+
+.img-item {
+  margin-bottom: 0.25rem;
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+.playlist-item h2 {
+  color: white;
+  left: 12rem;
+  position: absolute;
+  top: 4rem;
+}
+
+.cancle {
+  position: absolute;
+  top: 2.5rem;
+  left: 2rem;
+}
+
+.done {
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+}
+
+.cancle h3:hover {
+  color: white;
+}
+
+.done h3:hover {
+  color: white;
+}
+
+.newplaylist-content {
+  width: 49.188rem;
+  height: 18.75rem;
+  position: absolute;
+  top: 5.688rem;
+  left: 3.563rem;
+  /* background-color: rgba(0, 0, 0, 0.432); */
+  margin-top: 5rem;
+}
+
+.upload-img {
+  size: 18.75rem;
+}
+
+.newplaylist-content input[type="text"] {
+  width: 27.875rem;
+  height: 2.125rem;
+  position: absolute;
+  top: 8rem;
+  left: 20.75rem;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.05em;
+  color: aliceblue;
+  
+  border-bottom: 1px solid rgba(235, 235, 235, 0.6);
+
+}
+.newplaylist-content input::placeholder {
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.05em;
+  margin-left: 0;
+  color: rgba(235, 235, 235, 0.4);
+}
+
+.newplaylist-content input:focus {
+  outline: none;
+}
+

@@ -1,0 +1,40 @@
+.option-ab {
+  position: absolute;
+  top: 4rem;
+  background-color: #312244;
+  width: 12.5rem;
+  height: 7rem;
+  border-radius: 1.25rem;
+}
+.op-item-ab {
+  width: 12.5rem;
+  height: 1.375rem;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.5);
+  margin-top: 0.35rem;
+  padding-left: .5rem;
+  
+}
+.dd-ad {
+  position: relative;
+  top: 0;
+  left: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-op-ab {
+    margin-top: 0.35rem;
+    padding-left: .5rem;    
+}
+
+.close-op-ab h4 {
+    color: red;
+}
+
+.op-item-ab h4 {
+    color: #EBEBEB;
+}
+
+.close-op-ab:hover , .op-item-ab:hover {
+    background-color: #ffffff17;
+}

@@ -1,0 +1,128 @@
+.album-content {
+  width: 91.563rem;
+  height: 21.875rem;
+  left: 24.125rem;
+  top: 7rem;
+  /* background-color: rgba(0, 0, 0, 0.253); */
+  position: relative;
+  border-bottom: 1px solid rgb(155, 154, 154);
+  padding-bottom: 15%;
+}
+.album-image {
+  size: 21.875rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.album-info {
+  position: absolute;
+  top: 6rem;
+  left: 21rem;
+  margin-left: 10.438rem;
+}
+
+.album-info h1 {
+  color: #af55a6;
+}
+
+.album-info h3 {
+  color: aliceblue;
+}
+
+.button-bix {
+  position: absolute;
+  bottom: 2rem;
+  left: 30.438rem;
+}
+
+.bt {
+  margin: 1rem;
+  margin-bottom: 0%;
+}
+
+.album-container {
+  display: flex;
+  position: relative;
+  width: 91.563rem;
+  height: 25rem;
+  flex-direction: column;
+  left: 24.125rem;
+  top: 15rem;
+  /* background-color: #00000050; */
+  overflow-y: scroll;
+}
+
+.album-container::-webkit-scrollbar {
+  display: none;
+}
+
+.small-img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.item-song {
+  top: 1rem;
+  left: 7rem;
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  position: absolute;
+  color: #ffffff;
+}
+
+.album-item {
+  height: 3.125rem;
+  width: 91.563rem;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+.threeDotx {
+  position: absolute;
+  height: 0.438rem;
+  width: 2rem;
+  right: 1rem;
+  top: 1.8rem;
+}
+
+.threeDotx:hover {
+    filter: brightness(120%);
+}
+.artist-name {
+  top: 1.25rem;
+  left: 45rem;
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  position: absolute;
+  color: rgba(235, 235, 235, 0.6);
+}
+
+.time {
+  top: 1.25rem;
+  left: 76rem;
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  position: absolute;
+  color: rgba(235, 235, 235, 0.6);
+}
+.album-item:hover{
+  background-color: rgba(255, 255, 255, 0.144);
+}
+
