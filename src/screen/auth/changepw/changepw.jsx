@@ -2,7 +2,7 @@ import React from "react";
 import './style.css'
 const Respo = () => {
     return (
-        <div>
+        <div className = "auth-bg">
             <form className='resetpw-form'>
                 <div className='npw-box'>
                     <label>New Password</label><br />

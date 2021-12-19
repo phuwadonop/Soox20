@@ -4,7 +4,7 @@ import './style.css';
 
 const Home = () => {
     return (
-        <div>
+        <div className = "auth-bg">
             <form className='login_form'>
                 <div className='logoBar'>
                     <label>Log in LOGO</label>

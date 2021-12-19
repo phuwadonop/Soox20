@@ -2,7 +2,7 @@ import React from "react";
 import './regis.css'
 const Regis = () => {
     return (
-        <div>
+        <div className = "auth-bg">
             <form className = 'regis-form'>
                 <div className = 'email-box'>
                     <label>Email</label><br/>

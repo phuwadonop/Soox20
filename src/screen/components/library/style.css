@@ -1,0 +1,93 @@
+.search-box {
+  position: relative;
+  top: 25px;
+  height: 6.875rem;
+  left: 24.125rem;
+  width: 92.125rem;
+}
+
+.search-input {
+  width: 86.688rem;
+  height: 3.25rem;
+  background: rgba(235, 235, 235, 0.7);
+  border-radius: 15px;
+}
+
+.title-search {
+  font-family: Rambla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.813rem;
+  letter-spacing: 0.05em;
+
+  color: #ebebeb;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  left: 24.125rem;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.recently-box {
+  height: 2.25rem;
+}
+
+.item {
+  margin-top: 1rem;
+  width: 86.688rem;
+  border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+.search-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-item:hover {
+  background-color: #ffffff09;
+}
+
+.small-al-image {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin-bottom: 1rem;
+}
+.song-name {
+  color: #ebebeb;
+}
+
+.album-name {
+  letter-spacing: 0.05em;
+  color: rgba(235, 235, 235, 0.5);
+}
+
+.label {
+  font-size: calc(24 / 16) rem;
+  letter-spacing: 0.05em;
+  line-height: calc(29 / 16) rem;
+  letter-spacing: 0.05em;
+}
+
+.info-box {
+  margin: 1.5rem;
+}
+
+.threeDot {
+  position: absolute;
+  width: 2rem;
+  height: 0.438rem;
+  margin-top: 2.8rem;
+  left: 81rem;
+}
+
+.threeDot:hover {
+  filter: brightness(120%);
+}
+
+
+

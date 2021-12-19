@@ -2,7 +2,7 @@ import React from 'react'
 import './forgot.css'
 const Forgot = () => {
     return (
-        <div >
+        <div className = "auth-bg">
             <form className ='email-form'>
                 <div className = 'emailBar'>
                     <label className = 'emfont'>Email</label><br/><br/>

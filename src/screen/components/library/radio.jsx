@@ -2,8 +2,8 @@ import React from 'react'
 
 const Radio = () => {
     return (
-        <div>
-            
+        <div main-bg>
+            <h4>xxxxxxxxxxxxx</h4>
         </div>
     )
 }

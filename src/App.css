@@ -5,9 +5,22 @@
 }
 
 .App {
+  background-color: #08162B;
+}
+
+.auth-bg {
   background-image: url("./assets/img/BG.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
 }
+
+.main-bg {
+  background-color: #08162B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative; 
+}
+
