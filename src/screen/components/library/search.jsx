@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchDropDown from './comps/Searchdropdown';
 import AddToPlaylist from './comps/addToPlaylist';
 import NewPlaylist from './comps/newPlaylist';
-import './style.css';
+import './style.css'
 const Search = () => {
 
     const [search, setSearch] = useState(null);
@@ -28,10 +28,10 @@ const Search = () => {
                 {/* <div className="cancle-search" onClick={cancleSearch}><h2>Cancle</h2></div> */}
             </div>
             <div className="search-container">
-                <div className="recently-box item">
+                <div className="recently-box itemsearch">
                     <h1 className="title-search">Recenly Search</h1>
                 </div>
-                <div className="search-item item">
+                <div className="search-item itemsearch">
                     <img src="./img/Photo.png" className="small-al-image" />
                     <div className='info-box'>
                         <h3 className="song-name label">=</h3>
@@ -44,7 +44,7 @@ const Search = () => {
                         onPlaylistopen={() => setIsOpenPlayList(true)}
                     /> */}
                 </div>
-                <div className="search-item item">
+                <div className="search-item itemsearch">
                     <img src="./img/Rectangle 85.png" className="small-al-image" />
                     <div className='info-box'>
                         <h3 className="song-name label">X</h3>

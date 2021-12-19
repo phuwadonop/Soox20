@@ -1,3 +1,4 @@
+
 .search-box {
   position: relative;
   top: 1.563rem;
@@ -43,9 +44,10 @@
   height: 2.25rem;
 }
 
-.item {
+.itemsearch {
   margin-top: 1rem;
   width: 86.688rem;
+  height: 7rem;
   border-bottom: 1px solid rgb(155, 154, 154);
 }
 
@@ -53,6 +55,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  
 }
 
 .search-item:hover {
