@@ -9,6 +9,8 @@ export default function Album() {
     const [isOpenDropdown, setIsOpenDropdown] = useState(false);
     const [isOpenAddNewPlaylist, setIsOpenAddNewPlaylist] = useState(false);
 
+    const x = xs.map()
+
     return (
         <div className='main-bg'>
             <div className="album-content">
