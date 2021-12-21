@@ -9,8 +9,6 @@ export default function Album() {
     const [isOpenDropdown, setIsOpenDropdown] = useState(false);
     const [isOpenAddNewPlaylist, setIsOpenAddNewPlaylist] = useState(false);
 
-    const x = xs.map()
-
     return (
         <div className='main-bg'>
             <div className="album-content">
@@ -32,7 +30,172 @@ export default function Album() {
                     <img src="./img/Cover.png" className='small-img' />
                     <h4 className='item-song'>name Song</h4>
                     <h4 className='artist-name'>artist</h4>
-                    <h4 className='time'>xxx</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
+                    <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
+                    <DropDownAlbum
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+
+                <div className="album-item">
+                    <img src="./img/Cover.png" className='small-img' />
+                    <h4 className='item-song'>name Song</h4>
+                    <h4 className='artist-name'>artist</h4>
                     <img src="./img/threeDot.png" className='threeDotx' onClick={() => setIsOpenDropdown(true)} />
                     <DropDownAlbum
                         open={isOpenDropdown}

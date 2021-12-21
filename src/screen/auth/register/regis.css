@@ -76,3 +76,11 @@ input {
   left: 34.575%;
   top: 70.68%;
 }
+.regis-form button {
+  background: #4d194d;
+  border-radius: 40px;
+  font-style: normal;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}

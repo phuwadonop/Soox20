@@ -50,7 +50,7 @@
   flex-direction: column;
   left: 24.125rem;
   top: 15rem;
-  /* background-color: #00000050; */
+  background-color: #00000050;
   overflow-y: scroll;
 }
 
@@ -64,22 +64,24 @@
 }
 
 .item-song {
-  top: 1rem;
-  left: 7rem;
+  /* top: 1rem;
+  left: 7rem; */
+  margin-top: 1rem;
+  margin-left: 7rem;
   font-family: Rambla;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.5rem;
   letter-spacing: 0.05em;
-  position: absolute;
+  /* position: absolute; */
   color: #ffffff;
 }
 
 .album-item {
   height: 3.125rem;
   width: 91.563rem;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   padding-bottom: 5%;
@@ -87,39 +89,28 @@
 }
 
 .threeDotx {
-  position: absolute;
+  /* position: absolute; */
   height: 0.438rem;
   width: 2rem;
-  right: 1rem;
-  top: 1.8rem;
+  margin-left: 23rem;
+  margin-top: 1.8rem;
 }
 
 .threeDotx:hover {
     filter: brightness(120%);
 }
 .artist-name {
-  top: 1.25rem;
-  left: 45rem;
+  /* top: 1.25rem;
+  left: 45rem; */
+  margin-left: 45rem;
+  margin-top: 1.25rem;
   font-family: Rambla;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.5rem;
   letter-spacing: 0.05em;
-  position: absolute;
-  color: rgba(235, 235, 235, 0.6);
-}
-
-.time {
-  top: 1.25rem;
-  left: 76rem;
-  font-family: Rambla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.05em;
-  position: absolute;
+  /* position: absolute; */
   color: rgba(235, 235, 235, 0.6);
 }
 .album-item:hover{

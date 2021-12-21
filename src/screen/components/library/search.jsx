@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchDropDown from './comps/Searchdropdown';
 import AddToPlaylist from './comps/addToPlaylist';
 import NewPlaylist from './comps/newPlaylist';
-import './style.css'
+import './libraryStyle.css'
 const Search = () => {
 
     const [search, setSearch] = useState(null);
@@ -14,43 +14,156 @@ const Search = () => {
         setSearch(val.target.value);
         console.log({ search })
     }
-    // function cancleSearch() {
-    //     setSearch(null);
-    //     console.log({ search })
-    // }
-
+    
     return (
         <div className='main-bg'>
-            <div className="search-box">
-                <input className="search-input" placeholder="Artists, Songs, Lyrics and More" type="search"
+            <div className="xsearch-box">
+                <input className="xsearch-input" placeholder="Artists, Songs, Lyrics and More" type="search"
                     onChange={onSearchInputChange}
                 />
                 {/* <div className="cancle-search" onClick={cancleSearch}><h2>Cancle</h2></div> */}
             </div>
-            <div className="search-container">
-                <div className="recently-box itemsearch">
-                    <h1 className="title-search">Recenly Search</h1>
-                </div>
-                <div className="search-item itemsearch">
+            <div className="xrecently-box itemsearch">
+                <h1 className="xtitle-search">Recenly Search</h1>
+            </div>
+            <div className="xsearch-container">
+                <div className="xsearch-item xitemsearch">
                     <img src="./img/Photo.png" className="small-al-image" />
-                    <div className='info-box'>
-                        <h3 className="song-name label">=</h3>
-                        <h2 className="album-name label">Ed Sheeran</h2>
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
                     </div>
-                    <img src="./img/threeDot.png" className="threeDot" onClick={() => setIsOpenDropdown(true)} />
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    />
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
                     {/* <SearchDropDown
                         open={isOpenDropdown}
                         onClose={() => setIsOpenDropdown(false)}
                         onPlaylistopen={() => setIsOpenPlayList(true)}
                     /> */}
                 </div>
-                <div className="search-item itemsearch">
-                    <img src="./img/Rectangle 85.png" className="small-al-image" />
-                    <div className='info-box'>
-                        <h3 className="song-name label">X</h3>
-                        <h2 className="album-name label">Phorphoom</h2>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
                     </div>
-                    <img src="./img/threeDot.png" className="threeDot" onClick={() => setIsOpenDropdown(true)} />
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
+                    {/* <SearchDropDown
+                        open={isOpenDropdown}
+                        onClose={() => setIsOpenDropdown(false)}
+                        onPlaylistopen={() => setIsOpenPlayList(true)}
+                    /> */}
+                </div>
+                <div className="xsearch-item xitemsearch">
+                    <img src="./img/Photo.png" className="small-al-image" />
+                    <div className='xinfo-box'>
+                        <h3 className="xsong-name label">=</h3>
+                        <h2 className="xalbum-name label">Ed Sheeran</h2>
+                    </div>
+                    <img src="./img/threeDot.png" className="xthreeDot" onClick={() => setIsOpenDropdown(true)} />
                     {/* <SearchDropDown
                         open={isOpenDropdown}
                         onClose={() => setIsOpenDropdown(false)}
@@ -58,11 +171,11 @@ const Search = () => {
                     /> */}
                 </div>
             </div>
-            <SearchDropDown
+            {/* <SearchDropDown
                 open={isOpenDropdown}
                 onClose={() => setIsOpenDropdown(false)}
                 onPlaylistopen={() => setIsOpenPlayList(true)}
-            />
+            /> */}
             <AddToPlaylist
                 open={isOpenAddToPlaylist}
                 onClose={() => setIsOpenPlayList(false)}

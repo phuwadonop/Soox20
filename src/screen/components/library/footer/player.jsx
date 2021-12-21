@@ -3,6 +3,8 @@ import './player.css';
 import DropdownPlayer from './dropdownPlayer';
 import AddToPlaylist from '../comps/addToPlaylist';
 import NewPlaylist from '../comps/newPlaylist';
+import AudioFullPlayer from '../../audio/audioFullPlayer';
+import tracks from '../../../../tracks';
 export default function Player() {
 
     const [isDropdownOpen,setIsDropdownOpen] = useState(false);
@@ -12,7 +14,9 @@ export default function Player() {
     return (
         <div className='main-bg'>
             <div className="content">
-                <div className='player'>Player</div>
+                <div className='player'>
+                    <AudioFullPlayer tracks={tracks}/>
+                </div>
                 <div className='recently-play'>
                     <br />
                     <h1>Playing Next</h1>
